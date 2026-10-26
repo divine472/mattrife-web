@@ -1,0 +1,99 @@
+*{
+     box-sizing: border-box;
+    margin: 0rem;
+}
+
+
+body{
+    background-color:rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header {
+    color: gold;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+header h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+hr{
+    width: 80%;
+    height: 5px;
+    background-color: gold;
+    background-color: gold;
+    margin: 1.5rem auto;
+}
+
+#fd {
+    padding: 1rem;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(26, 24, 24);
+    border-radius: 15px;
+    border-color: black;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#fd h1 {
+    text-transform: capitalize;
+    font-size: 11px;
+    display: block;
+    margin-bottom: 7px;
+}
+
+#fd a {
+    text-decoration: none;
+    color: gold;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: gold;
+}
+
+.n {
+    text-transform: capitalize;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 7px;
+    color: gold;
+    text-align: center;
+
+}
+
+
+h2 {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: rgb(236, 230, 230);
+    border-radius: 10px;
+    display: block;
+    font-size: 25px;
+    text-align: center;
+    width: 50%;
+    margin: 5px auto 150px;
+    font-weight: bold;
+}

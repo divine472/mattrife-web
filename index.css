@@ -1,0 +1,173 @@
+ *{
+     box-sizing: border-box;
+    margin: 0rem;
+}
+
+
+body{
+    background-color:rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header {
+    color: gold;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+header h1{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#md {
+    padding: 3rem;
+    margin-top: -15px;
+}
+
+main img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.d1{
+    text-align: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+
+.d1 h1{
+    font-size: 15px;
+    font-weight: normal;
+    text-align: start;
+    letter-spacing: 0.7px;
+}
+
+.d1 p {
+    font-size: 11px;
+    text-align: start;
+    letter-spacing: 0.7px;
+}
+
+.d1 button{
+    color: rgb(0, 0, 0);
+    background-color: gold;
+    padding: 6px;
+    width: 100%;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.d1 button a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.d1 button:hover{
+    background-color: rgb(163, 141, 18);
+}
+.d1>* {
+    margin-bottom: 6px;
+}
+
+.d1 h1:not(.b) {
+    text-transform: capitalize;
+}
+
+.d1 p{
+    text-transform: capitalize;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: gold;
+}
+
+#fd {
+    padding: 1rem;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(26, 24, 24);
+    border-radius: 15px;
+    border-color: black;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#fd h1 {
+    text-transform: capitalize;
+    font-size: 15px;
+    display: block;
+    margin-bottom: 7px;
+}
+
+#fd a {
+    text-decoration: none;
+    color: gold;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
+
+hr{
+    width: 80%;
+    height: 5px;
+    background-color: gold;
+    background-color: gold;
+    margin: 1.5rem auto;
+}
+
+.in >* {
+    text-transform: capitalize;
+    text-align: ;
+    margin-bottom: 13px;
+}
+
+.in {
+    color: gold;
+    padding: 2.5rem;
+}
+
+.in h1 {
+    font-size:16px ;
+    text-align: center;
+
+}
+
+.in h2 {
+    font-size: 14px;
+}
+
+.in li {
+    font-size: 12px;
+}
+
+ul>* {
+    margin-bottom: 8px;
+}
+
+ol>* {
+    margin-bottom: 8px;
+}
+
+.in h1, .in h2{
+    text-decoration: underline;
+}
