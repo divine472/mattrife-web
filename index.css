@@ -59,7 +59,7 @@ main img {
     letter-spacing: 0.7px;
 }
 
-.d1 button{
+.d1 a{
     color: rgb(0, 0, 0);
     background-color: gold;
     padding: 6px;
@@ -68,14 +68,16 @@ main img {
     font-size: 14px;
     border-radius: 10px;
     font-weight: bold;
+    margin-top: 10px;
+    display: block;
 }
 
-.d1 button a {
+.d1 a {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
 
-.d1 button:hover{
+.d1 a:hover{
     background-color: rgb(163, 141, 18);
 }
 .d1>* {
